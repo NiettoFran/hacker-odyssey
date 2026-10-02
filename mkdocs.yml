@@ -1,0 +1,48 @@
+site_name: Hacker Odyssey
+site_description: Mi camino hacia la seguridad informática - notas, write-ups, informes y labs
+site_url: https://hacker-odyssey.ntech.studio/
+repo_url: https://github.com/NiettoFran/hacker-odyssey
+repo_name: NiettoFran/hacker-odyssey
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    - scheme: slate
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/lightbulb-outline
+        name: Cambiar a modo claro
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb
+        name: Cambiar a modo oscuro
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search:
+      lang: es
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - tables
