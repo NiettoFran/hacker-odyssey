@@ -7,6 +7,7 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  language: es
   palette:
     - scheme: slate
       primary: deep orange
@@ -14,7 +15,9 @@ theme:
       toggle:
         icon: material/lightbulb-outline
         name: Cambiar a modo claro
-    - scheme: slate
+    - scheme: default
+      primary: deep orange
+      accent: orange
       toggle:
         icon: material/lightbulb
         name: Cambiar a modo oscuro
